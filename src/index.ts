@@ -4,7 +4,7 @@ import 'console.table'
 const { Client } = pg;
 const client = new Client({
     user: 'postgres',
-    password: 'Rycbarm32',
+    password: 'pass',
     database: 'winery_app_db'
 });
 
